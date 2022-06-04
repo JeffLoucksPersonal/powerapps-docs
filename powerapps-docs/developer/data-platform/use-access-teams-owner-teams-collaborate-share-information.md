@@ -22,7 +22,9 @@ With *owner* teams or *access* teams, you can easily share business objects and 
  An owner team owns rows and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns.  
   
 > [!NOTE]
->  While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges cannot be applied by assigning security roles to a team and then adding the user to that team.  
+>  Unlike Owner Teams, Access Teams provide access to a group of users and you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges cannot be applied by assigning security roles to an Access Team and then adding the user to that team.  
+> Owner Teams <b>can</b> be associated with security roles.
+> Access Teams <b>cannot</b> be associated with security roles.
   
  An access team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write or Append.  
   
